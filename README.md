@@ -1,4 +1,9 @@
 ## sing-box VLESS+REALITY脚本
+
+### 教程
+
+
+### sing-box 指令
 ```bash
 # sing-box 指令
 
@@ -16,3 +21,4 @@ systemctl restart sing-box
 # 查看日志
 journalctl -u sing-box -f
 ```
+

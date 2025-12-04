@@ -1,0 +1,45 @@
+proxies:
+
+- name: "vless"
+
+  type: vless
+
+  server: 你的服务器ip
+
+  port: 端口
+
+  udp: true
+
+  uuid: uuid生成
+
+  packet-encoding: xudp
+
+  
+
+  tls: true
+
+  servername: 头的域名
+
+  alpn:
+
+  - h2
+
+  - http/1.1
+
+  client-fingerprint: chrome
+
+  skip-cert-verify: true
+
+  reality-opts:
+
+    public-key: 公钥
+
+    short-id: 数字id
+
+  network: tcp
+
+  
+
+  smux:
+
+    enabled: false
