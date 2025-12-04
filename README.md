@@ -1,7 +1,9 @@
 ## sing-box VLESS+REALITY脚本
 
 ### 教程
-
+`config.json` - 服务端配置
+`config.yaml` - 客户端配置
+按提示改即可
 
 ### sing-box 指令
 ```bash
